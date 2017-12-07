@@ -1,0 +1,95 @@
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+Compiling: "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\amd64\\cl.exe" "/nologo" "/MD" "/Z7" "/I" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod/dependencies/SDL-1.2.15/include\\x86_64-pc-windows-msvc" "/I" "libtcod\\src\\zlib" "/I" "libtcod\\include" "/DLIBTCOD_EXPORTS" "/DNO_OPENGL" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\adler32.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\crc32.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\deflate.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\infback.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\inffast.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\inflate.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\inftrees.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\trees.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\zutil.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\compress.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\uncompr.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\gzclose.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\gzlib.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\gzread.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zlib\\gzwrite.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\bresenham_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\bsp_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\color_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\console_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_circular_raycasting.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_diamond_raycasting.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_recursive_shadowcasting.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_permissive2.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\fov_restrictive.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\heightmap_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\image_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\lex_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\list_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\mersenne_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\noise_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\parser_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\path_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\sys_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\sys_opengl_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\sys_sdl_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\sys_sdl_img_bmp.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\sys_sdl_img_png.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\tree_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\txtfield_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\wrappers.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\zip_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\namegen_c.c" "C:\\Users\\lerug\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\tcod-sys-4.1.0\\libtcod\\src\\png\\lodepng.c" "User32.lib" "SDL.lib" "SDLmain.lib" "/link" "/LIBPATH:C:\\Users\\lerug\\Desktop\\-Rust\\roguelike\\target\\debug\\build\\tcod-sys-050ad1b835d0c62a\\out" "/DLL" "/OUT:C:\\Users\\lerug\\Desktop\\-Rust\\roguelike\\target\\debug\\build\\tcod-sys-050ad1b835d0c62a\\out\\tcod.dll" "/W4"
+STDOUT: adler32.c
+crc32.c
+deflate.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+zutil.c
+compress.c
+uncompr.c
+gzclose.c
+gzlib.c
+gzread.c
+gzwrite.c
+bresenham_c.c
+bsp_c.c
+color_c.c
+console_c.c
+fov_c.c
+Generating Code...
+Compiling...
+fov_circular_raycasting.c
+fov_diamond_raycasting.c
+fov_recursive_shadowcasting.c
+fov_permissive2.c
+fov_restrictive.c
+heightmap_c.c
+image_c.c
+lex_c.c
+list_c.c
+mersenne_c.c
+noise_c.c
+parser_c.c
+path_c.c
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(119): warning C4312: 'type cast': conversion from 'uintptr' to 'void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(273): warning C4312: 'type cast': conversion from 'uintptr' to 'void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(291): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(293): warning C4312: 'type cast': conversion from 'uintptr' to 'void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(304): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(342): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(620): warning C4312: 'type cast': conversion from 'uintptr' to 'const void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(653): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\path_c.c(686): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+sys_c.c
+sys_opengl_c.c
+sys_sdl_c.c
+sys_sdl_img_bmp.c
+sys_sdl_img_png.c
+tree_c.c
+txtfield_c.c
+Generating Code...
+Compiling...
+wrappers.c
+zip_c.c
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(65): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(66): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(67): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(68): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(76): warning C4312: 'type cast': conversion from 'uintptr' to 'void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(171): warning C4312: 'type cast': conversion from 'uintptr' to 'void *' of greater size
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(211): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(288): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(312): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+C:\Users\lerug\.cargo\registry\src\github.com-1ecc6299db9ec823\tcod-sys-4.1.0\libtcod\src\zip_c.c(367): warning C4311: 'type cast': pointer truncation from 'void *' to 'uintptr'
+namegen_c.c
+lodepng.c
+Generating Code...
+LINK : warning LNK4044: unrecognized option '/W4'; ignored
+   Creating library C:\Users\lerug\Desktop\-Rust\roguelike\target\debug\build\tcod-sys-050ad1b835d0c62a\out\tcod.lib and object C:\Users\lerug\Desktop\-Rust\roguelike\target\debug\build\tcod-sys-050ad1b835d0c62a\out\tcod.exp
+
+STDERR: 
+cargo:rustc-link-search=C:\Users\lerug\Desktop\-Rust\roguelike\target\debug\build\tcod-sys-050ad1b835d0c62a\out
+cargo:rustc-link-lib=dylib=SDL
+cargo:rustc-link-lib=User32
+cargo:rustc-link-search=C:\Users\lerug\Desktop\-Rust\roguelike\target\debug\build\tcod-sys-050ad1b835d0c62a\out
+cargo:rustc-link-lib=dylib=tcod

@@ -3,6 +3,8 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/guessing_game/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/roguelike/Cargo.toml" />
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
