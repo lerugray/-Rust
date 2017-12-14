@@ -1,5 +1,5 @@
 extern crate tcod;
-extern crate input;
+
 
 use tcod::console::*;
 use tcod::colors;
@@ -8,6 +8,8 @@ use tcod::colors::Color;
 // actual size of the window
 const SCREEN_WIDTH: i32 = 80;
 const SCREEN_HEIGHT: i32 = 50;
+//const MAP_WIDTH: i32 = 80;
+//const MAP_HEIGHT: i32 = 45;
 
 const LIMIT_FPS: i32 = 20;  // 20 frames-per-second maximum
 
@@ -28,8 +30,8 @@ impl Object {
         }
     }
 
+    ///move by the given amount
     pub fn move_by(&mut self, dx: i32, dy: i32) {
-        //move by the given amount
         self.x += dx;
         self.y += dy;
     }

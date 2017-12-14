@@ -1,0 +1,7 @@
+[package]
+name = "rusty6502"
+version = "0.1.0"
+authors = ["lerugray <lerugray@gmail.com>"]
+
+[dependencies]
+rand = "*"
